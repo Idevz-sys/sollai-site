@@ -3677,7 +3677,10 @@ span {
   z-index: 1;
 }
 .text-slider-large-wrapper h2 a {
-  color: var(--primary-color);
+  background: linear-gradient(to right, #5bd55e, #214da6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 .text-slider-large-wrapper .text-stroke {
   -webkit-text-fill-color: transparent;
