@@ -1,12 +1,9 @@
-#size-h1{
-    font-size: 40px !important;
-  }
 
 
 @media (min-width: 1025px) {
 
     #size-h1{
-        font-size: 40px !important;
+        font-size: 45px !important;
       }
 }
 
