@@ -92,7 +92,7 @@
   --theme-color: #ffffff90;
   --white: #ffffff;
   --black: #000000;
-  --primary-color: #65ff4b;
+  --primary-color: #e34d00;
   --secondary-color: #40cc28;
   --tertiary-color: #120f23;
   --quaternary-color: #191b1a;
@@ -1219,7 +1219,7 @@ span {
   width: 100%;
   max-width: 520px;
   background-color: var(--primary-color);
-  background-image: linear-gradient(132deg, #65ff4b 0%, #46e695 100%);
+  background-image: linear-gradient(132deg, #e34d00 0%, #46e695 100%);
   z-index: 99999;
   transform: translateX(100%);
   box-shadow: -10px 0 15px rgba(0, 0, 0, 0.1);
@@ -1611,24 +1611,25 @@ span {
 
 .btn--primary {
   z-index: 1;
-  color: var(--quaternary-color);
-  background-image: linear-gradient(140deg, #65ff4b 0%, #46e695 100%);
+  color: white;
+  background-image: linear-gradient(-140deg, #214da6 0%, #46e695 100%);
   border: 0px;
 }
 .btn--primary::before {
   content: "";
   position: absolute;
+  color: white;
   top: 0px;
   right: 0px;
   bottom: 0px;
   width: 0px;
   height: 100%;
-  background-image: linear-gradient(-140deg, #65ff4b 0%, #46e695 100%);
+  background-image: linear-gradient(-140deg, #214da6 0%, #46e695 100%);
   transition: all 0.6s ease;
   z-index: -1;
 }
 .btn--primary:hover {
-  color: var(--black);
+  color: white;
   border: 0px;
 }
 .btn--primary:hover::before {
@@ -1651,7 +1652,7 @@ span {
   bottom: 0px;
   width: 0px;
   height: 100%;
-  background-image: linear-gradient(140deg, #65ff4b 0%, #46e695 100%);
+  background-image: linear-gradient(140deg, #e34d00 0%, #46e695 100%);
   transition: all 0.6s ease;
   z-index: -1;
 }
@@ -1714,7 +1715,7 @@ span {
   bottom: 0px;
   width: 0px;
   height: 100%;
-  background-image: linear-gradient(140deg, #65ff4b 0%, #46e695 100%);
+  background-image: linear-gradient(140deg, #e34d00 0%, #46e695 100%);
   transition: all 0.6s ease;
   z-index: -1;
 }
@@ -2356,11 +2357,12 @@ span {
  --------- (4.02) banner styles start ---------
  ==== */
 .banner {
-  padding: 220px 0px 0px;
+  padding: 700px 0px 0px;
   background-color: var(--theme-bg);
   position: relative;
   overflow: hidden;
   z-index: 1;
+  height: 100vh;
 }
 .banner::before {
   position: absolute;
@@ -2570,7 +2572,7 @@ span {
   margin-bottom: 30px;
 }
 .banner-two .banner-two__content h1 span {
-  background: linear-gradient(107deg, #65ff4b 0%, #46e695 100%);
+  background: linear-gradient(107deg, #e34d00 0%, #46e695 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2649,7 +2651,7 @@ span {
   top: -10px;
   right: -10px;
   border-radius: 100px;
-  border: 1px solid #65ff4b;
+  border: 1px solid #e34d00;
   z-index: -2;
 }
 .banner-three .banner-t-s-thumb img {
@@ -3230,7 +3232,7 @@ span {
 .footer-alter .footer-alter__inner {
   padding: 80px;
   border-radius: 10px;
-  background-image: url("../images/footer/footer-bg-two.png"), linear-gradient(132deg, #65ff4b 0%, #46e695 100%);
+  background-image: url("../images/footer/footer-bg-two.png"), linear-gradient(132deg, #e34d00 0%, #46e695 100%);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right top;
@@ -3378,7 +3380,7 @@ span {
 .footer-cmn .footer-cmn__cta {
   padding: 80px 20px;
   border-radius: 20px;
-  background: linear-gradient(132deg, #65ff4b 0%, #46e695 100%);
+  background: linear-gradient(132deg, #e34d00 0%, #46e695 100%);
 }
 .footer-cmn .footer-cmn__cta .title {
   color: var(--quaternary-color);
@@ -3444,7 +3446,7 @@ span {
   background-color: #292c32;
 }
 .footer-cmn .subscribe-form button {
-  background-image: linear-gradient(132deg, #65ff4b 0%, #46e695 100%);
+  background-image: linear-gradient(132deg, #e34d00 0%, #46e695 100%);
   color: #1c1b1f;
 }
 .footer-cmn .footer__copyright {
@@ -4244,7 +4246,7 @@ span {
   font-weight: 700;
 }
 .counter .counter__single .prefix {
-  color: #65ff4b;
+  color: #e34d00;
 }
 .counter .counter__single p {
   font-weight: 600;
@@ -4525,7 +4527,7 @@ span {
 }
 
 .empower .content-wrapper {
-  background-image: linear-gradient(132deg, #65ff4b 0%, #46e695 100%);
+  background-image: linear-gradient(132deg, #e34d00 0%, #46e695 100%);
   clip-path: polygon(8.684% 36.644%, 8.684% 36.644%, 8.784% 36.074%, 8.902% 35.543%, 9.037% 35.054%, 9.186% 34.61%, 9.349% 34.213%, 9.524% 33.867%, 9.71% 33.573%, 9.906% 33.336%, 10.111% 33.158%, 10.323% 33.041%, 93.236% 0.326%, 93.236% 0.326%, 93.575% 0.273%, 93.904% 0.38%, 94.218% 0.633%, 94.512% 1.024%, 94.782% 1.541%, 95.023% 2.174%, 95.229% 2.912%, 95.398% 3.744%, 95.523% 4.659%, 95.599% 5.648%, 99.962% 92.755%, 99.962% 92.755%, 99.985% 93.885%, 99.942% 94.973%, 99.839% 96.002%, 99.681% 96.953%, 99.474% 97.808%, 99.222% 98.548%, 98.931% 99.156%, 98.605% 99.613%, 98.252% 99.9%, 97.875% 100%, 2.168% 100%, 2.168% 100%, 1.722% 99.862%, 1.315% 99.469%, 0.952% 98.854%, 0.641% 98.049%, 0.389% 97.086%, 0.203% 95.998%, 0.089% 94.816%, 0.055% 93.574%, 0.108% 92.303%, 0.253% 91.035%, 8.684% 36.644%);
   padding: 80px 140px;
 }
@@ -5347,7 +5349,7 @@ span {
 .h-unlock .h-unlock__thumb .h-u-t-content {
   padding: 30px;
   border-radius: 10px 120px 10px 10px;
-  background: linear-gradient(132deg, #65ff4b 0%, #46e695 100%);
+  background: linear-gradient(132deg, #e34d00 0%, #46e695 100%);
   max-width: 310px;
   position: absolute;
   bottom: 0px;
@@ -5499,7 +5501,7 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 6px solid #65ff4b;
+  border: 6px solid #e34d00;
 }
 .publisher .publisher__single .thumb img {
   width: 100%;
@@ -5637,7 +5639,7 @@ span {
   font-weight: 700;
 }
 .s-journey .counter__single .prefix {
-  color: #65ff4b;
+  color: #e34d00;
 }
 .s-journey .counter__single p {
   font-weight: 500;
@@ -5923,7 +5925,7 @@ span {
   background-color: #292c32;
 }
 .s-news .subscribe-form button {
-  background-image: linear-gradient(132deg, #65ff4b 0%, #46e695 100%);
+  background-image: linear-gradient(132deg, #e34d00 0%, #46e695 100%);
   color: #1c1b1f;
 }
 
@@ -6634,7 +6636,7 @@ span {
   background-color: #120f23;
 }
 .p-details .p-details__tab .p-details__tab-btn .p-d-t-btn-active {
-  background: linear-gradient(132deg, #65ff4b 0%, #46e695 100%);
+  background: linear-gradient(132deg, #e34d00 0%, #46e695 100%);
   color: #191b1a;
 }
 .p-details .p-details__tab .p-details__tab-single {
@@ -7094,7 +7096,7 @@ span {
 }
 .case-details .case-d-content-left .social a:hover {
   background-color: rgba(101, 255, 75, 0.1254901961);
-  color: #65ff4b;
+  color: #e34d00;
 }
 .case-details .case-d-content-right .text-group {
   margin-bottom: 60px;
@@ -7760,7 +7762,10 @@ span {
   .h-s-case-alter .h-s-case-single .h-case-content .case-title .light-title {
     font-size: 48px;
   }
+  
 }
+
+
 @media only screen and (max-width: 1199.98px) {
   p,
   th,
@@ -7784,6 +7789,7 @@ span {
     font-size: 16px;
     line-height: 24px;
   }
+
   h1,
   .light-title {
     font-size: 56px;

@@ -1,0 +1,22 @@
+#size-h1{
+    font-size: 40px !important;
+  }
+
+
+@media (min-width: 1025px) {
+
+    #size-h1{
+        font-size: 40px !important;
+      }
+}
+
+@media (min-width: 1000px) {
+    .banner {
+        padding: 850px 0px 0px;
+        background-color: var(--theme-bg);
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        height: 100vh;
+      }
+}
