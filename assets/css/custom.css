@@ -1,5 +1,7 @@
 
 
+
+
 @media (min-width: 1025px) {
 
     .size-h1{
@@ -15,15 +17,23 @@
   font-size: 20px;
 }
 
+.filter-video {
+  filter:  brightness(80%) saturate(120%) hue-rotate(200deg);
+}
+
+
 @media (min-width: 1000px) {
     .banner {
-        padding: 850px 0px 0px;
+        padding: 1000px 0px 0px;
         background-color: var(--theme-bg);
         position: relative;
         overflow: hidden;
         z-index: 1;
         height: 100vh;
+       
+        
       }
+
       
 }
 
@@ -35,6 +45,7 @@
       overflow: hidden;
       z-index: 1;
       height: 100vh;
+      
     }
     #button-home{
       margin: 10px;
