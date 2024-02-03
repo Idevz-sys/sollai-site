@@ -2,9 +2,17 @@
 
 @media (min-width: 1025px) {
 
-    #size-h1{
+    .size-h1{
         font-size: 45px !important;
+        line-height: 60px;
       }
+    
+}
+
+#button-home{
+  margin: 20px;
+  letter-spacing: 20px;
+  font-size: 20px;
 }
 
 @media (min-width: 1000px) {
@@ -16,4 +24,25 @@
         z-index: 1;
         height: 100vh;
       }
+      
 }
+
+@media (min-width: 414px) {
+  .banner {
+      padding: 850px 0px 0px;
+      background-color: var(--theme-bg);
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+      height: 100vh;
+    }
+    #button-home{
+      margin: 10px;
+      letter-spacing: 10px;
+      font-size: 13px;
+      
+      
+    }
+}
+
+
