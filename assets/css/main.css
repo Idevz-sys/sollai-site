@@ -620,7 +620,7 @@ span {
 }
 
 .section {
-  padding: 160px 0px;
+  padding: 113px 0px;
   overflow-x: clip;
   position: relative;
   z-index: 1;
@@ -5660,7 +5660,7 @@ span {
 }
 
 .h-empower {
-  background-color: #120f23;
+  /* background-color: #120f23; */
   position: relative;
   z-index: 1;
   overflow-x: clip;
