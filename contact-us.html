@@ -33,6 +33,7 @@
       <!-- ==== / css dependencies end ==== -->
       <!-- main css -->
       <link rel="stylesheet" href="assets/css/main.css">
+      <link rel="stylesheet" href="assets/css/custom.css">
    </head>
    <body>
       <!--[if lte IE 9]>
@@ -97,26 +98,35 @@
                                     <a href="index.html">Home</a>
                                  </li>
                                  <li class="navbar__item nav-fade">
-                                    <a href="index.html">Sobre nós</a>
+                                    <a href="#quemsomos">Sobre nós</a>
                                  </li>
                                  <li class="navbar__item nav-fade">
-                                    <a href="index.html">Como funciona</a>
+                                    <a href="#comofunciona">Como funciona</a>
                                  </li>
                                  <li class="navbar__item nav-fade">
-                                    <a href="about-us.html">FAQ</a>
+                                    <a href="#faqq">FAQ</a>
+                                 </li>
+                                 <li class="navbar__item nav-fade">
+                                    <a href="blog.html">Blog</a>
                                  </li>
                                  <li class="navbar__item nav-fade">
                                     <a href="contact-us.html">Contato</a>
+                                 </li>
+                                 <li class="navbar__item nav-fade button-acess">
+                                    <a href="contact-us.html">Acessar Painel</a>
                                  </li>
                                 
                               </ul>
                            </div>
                            <div class="navbar__options">
+                              <button class="btn btn1">
+                                 <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                                   <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                                   <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                                 </svg>
+                                 <span>Acessar Painel</span>
+                               </button>
                               <div class="navbar__mobile-options">
-                                 
-                                 <button  aria-label="search products" title="open search box">
-                                 <i class="bi bi-search"></i>
-                                 </button>
                                  <button class="open-offcanvas" aria-label="open offcanvas" title="open offcanvas">
                                  <i class="bi bi-grid-3x3-gap"></i>
                                  </button>
@@ -134,16 +144,6 @@
                <!-- ==== mobile menu start ==== -->
                <div class="mobile-menu d-block d-xl-none">
                   <nav class="mobile-menu__wrapper">
-                    <!-- <div class="mobile-menu__header nav-fade">
-                        <div class="logo">
-                           <a href="index.html" aria-label="home page" title="logo">
-                           <img src="assets/images/logo.png" alt="Image">
-                           </a>
-                        </div>
-                        <button aria-label="close mobile menu" class="close-mobile-menu">
-                        <i class="bi bi-x-lg"></i>
-                        </button>
-                     </div> -->
                      <div class="mobile-menu__list"></div>
                      <div class="mobile-menu__social social nav-fade">
                         <a
@@ -714,5 +714,9 @@
       <script src="assets/js/plugins.js"></script>
       <!-- main js -->
       <script src="assets/js/main.js"></script>
+
+      <script>
+         
+      </script>
    </body>
 </html>
