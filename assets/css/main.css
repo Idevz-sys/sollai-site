@@ -2049,6 +2049,8 @@ span {
   justify-content: space-between;
   gap: 60px;
   flex-wrap: wrap;
+
+
 }
 .primary-navbar .navbar__menu {
   flex-grow: 1;

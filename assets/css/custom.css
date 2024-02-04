@@ -143,4 +143,18 @@ svg {
   }
 }
 
-@media (max-width: 1000)
+@media (max-width: 1399px){
+  .primary-navbar .navbar__item button,
+.primary-navbar .navbar__item a {
+ font-size: 11px;
+  }
+}
+
+@media (max-width: 991px){
+  .unlock .unlock__thumb{
+    display: none;
+  }
+}
+
+.video-s__content {
+ 
