@@ -19,6 +19,8 @@
 
 .filter-video {
   filter:  brightness(80%) saturate(120%) hue-rotate(200deg);
+  width: 100%;
+  height: 128%;
 }
 
 
