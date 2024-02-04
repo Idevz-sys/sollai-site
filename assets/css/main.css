@@ -2047,7 +2047,7 @@ span {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 60px;
+  gap: 40px;
   flex-wrap: wrap;
 
 
@@ -2183,6 +2183,11 @@ span {
   top: 17px;
   box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+.invertnav{
+  flex-direction: row-reverse;
+}
+
 .primary-navbar .navbar__sub-menu-n {
   display: none;
 }
@@ -2190,6 +2195,7 @@ span {
   display: flex;
   align-items: center;
   gap: 40px;
+  flex-direction: row-reverse;
 }
 .primary-navbar .navbar__mobile-options {
   display: flex;
@@ -3925,6 +3931,7 @@ span {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  height: 420px;
 }
 .overview .overview__single::before {
   content: "";
@@ -8719,6 +8726,11 @@ span {
   }
   .primary-navbar .navbar__logo {
     max-width: 110px;
+
+  }
+
+  .navbar__logo{
+    margin-right: 30px;
   }
   .primary-navbar .navbar__mobile-options {
     gap: 16px;

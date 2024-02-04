@@ -156,3 +156,14 @@ svg {
   }
 }
 
+.align-quads {
+  height: 20px !important;
+}
+
+.container2 {
+  max-width: 90% !important;
+}
+
+.logomar{
+  margin-right: 20%;
+}
