@@ -224,7 +224,7 @@ span {
     font-weight: 700;
     color: var(--theme-color);
     margin-bottom: 16px;
-    text-transform: capitalize;
+    
   }
 }
 
@@ -233,7 +233,7 @@ span {
   margin-top: -8px;
   .sub-title-two {
     color: var(--white);
-    text-transform: capitalize;
+    
     position: relative;
     display: inline-block;
     margin-bottom: 12px;
@@ -253,7 +253,7 @@ span {
 
   .title {
     margin-top: 30px;
-    text-transform: capitalize;
+    
     font-weight: 700;
     color: var(--white);
   }
@@ -285,13 +285,13 @@ span {
     background-color: #57f2f220;
     color: var(--white);
     border-radius: 10px;
-    text-transform: capitalize;
+    
     font-weight: 600;
   }
 
   .sub-title-two {
     color: var(--white);
-    text-transform: capitalize;
+    
     position: relative;
     display: inline-block;
     margin-bottom: 12px;
@@ -309,7 +309,7 @@ span {
 
   .title {
     margin-top: 30px;
-    text-transform: capitalize;
+    
     font-weight: 700;
     color: var(--white);
   }
@@ -733,7 +733,7 @@ span {
       background-color: var(--white);
       transition: all 500ms ease;
       font-weight: 400;
-      text-transform: capitalize;
+      
       padding-right: 80px;
       &::placeholder {
         opacity: 0.5;
@@ -848,7 +848,7 @@ span {
     h5 {
       color: var(--quaternary-color);
       font-weight: 600;
-      text-transform: capitalize;
+      
     }
 
     ul {
@@ -890,7 +890,7 @@ span {
     h5 {
       color: var(--quaternary-color);
       font-weight: 600;
-      text-transform: capitalize;
+      
     }
 
     .subscribe-form {
@@ -1103,7 +1103,7 @@ span {
     color: white;
     margin-bottom: 24px;
     font-weight: 600;
-    text-transform: capitalize;
+    
   }
 
   h2 {

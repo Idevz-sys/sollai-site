@@ -654,7 +654,7 @@ span {
   font-weight: 700;
   color: var(--theme-color);
   margin-bottom: 16px;
-  text-transform: capitalize;
+  
 }
 
 .section__header {
@@ -663,7 +663,7 @@ span {
 }
 .section__header .sub-title-two {
   color: var(--white);
-  text-transform: capitalize;
+  
   position: relative;
   display: inline-block;
   margin-bottom: 12px;
@@ -681,7 +681,7 @@ span {
 }
 .section__header .title {
   margin-top: 30px;
-  text-transform: capitalize;
+  
   font-weight: 700;
   color: var(--white);
 }
@@ -707,12 +707,12 @@ span {
   background-color: rgba(101, 255, 75, 0.1254901961);
   color: var(--white);
   border-radius: 10px;
-  text-transform: capitalize;
+  
   font-weight: 600;
 }
 .section__content .sub-title-two {
   color: var(--white);
-  text-transform: capitalize;
+  
   position: relative;
   display: inline-block;
   margin-bottom: 12px;
@@ -729,7 +729,7 @@ span {
 }
 .section__content .title {
   margin-top: 30px;
-  text-transform: capitalize;
+  
   font-weight: 700;
   color: var(--white);
 }
@@ -1140,7 +1140,7 @@ span {
   background-color: var(--white);
   transition: all 500ms ease;
   font-weight: 400;
-  text-transform: capitalize;
+  
   padding-right: 80px;
 }
 .search-popup .search-popup__group input::placeholder {
@@ -1245,7 +1245,7 @@ span {
 .offcanvas-info .offcanvas-info__content h5 {
   color: var(--quaternary-color);
   font-weight: 600;
-  text-transform: capitalize;
+  
 }
 .offcanvas-info .offcanvas-info__content ul {
   max-width: 350px;
@@ -1281,7 +1281,7 @@ span {
 .offcanvas-info .offcanvas-info__form h5 {
   color: var(--quaternary-color);
   font-weight: 600;
-  text-transform: capitalize;
+  
 }
 .offcanvas-info .offcanvas-info__form .subscribe-form {
   margin-top: 30px;
@@ -1480,7 +1480,7 @@ span {
   color: white;
   margin-bottom: 24px;
   font-weight: 600;
-  text-transform: capitalize;
+  
 }
 .text-group h2 {
   margin-bottom: 24px;
@@ -1598,7 +1598,7 @@ span {
   color: var(--primary-color);
   position: relative;
   overflow: hidden;
-  text-transform: capitalize;
+  
 }
 .btn:hover {
   border: 1px solid var(--primary-color);
@@ -1642,7 +1642,7 @@ span {
   color: var(--white);
   border: 0px;
   background-color: #302e3f;
-  text-transform: capitalize;
+  
 }
 .btn--secondary::before {
   content: "";
@@ -1673,7 +1673,7 @@ span {
   gap: 20px;
   display: inline-flex;
   align-items: center;
-  text-transform: capitalize;
+  
 }
 .btn--tertiary::before {
   content: "";
@@ -1704,7 +1704,7 @@ span {
   gap: 20px;
   display: inline-flex;
   align-items: center;
-  text-transform: capitalize;
+  
   font-weight: 600;
 }
 .btn--quaternary::before {
@@ -2243,7 +2243,7 @@ span {
   }
 }
 .navbar-active {
-  background-color: var(--black);
+  background-color: #ffffff00;
   animation: stickyNavbar 0.9s ease-in-out;
   box-shadow: var(--shadow);
 }
@@ -3088,7 +3088,7 @@ span {
 }
 .footer .footer__content h2 {
   color: var(--white);
-  text-transform: capitalize;
+  
 }
 .footer .footer__content h2 span {
   text-transform: uppercase;
@@ -3932,7 +3932,7 @@ span {
   inset: 0px;
   border-radius: inherit;
   width: 0px;
-  background-color: var(--primary-color);
+  background-color: #ffff;
   z-index: -1;
   transition: width 0.3s cubic-bezier(0.39, 0.13, 0.55, 0.88);
   will-change: width;
@@ -4183,7 +4183,7 @@ span {
   color: var(--quaternary-color);
 }
 .blog .blog__single:hover {
-  background-color: var(--primary-color);
+  background-color: #fff;
 }
 .blog .blog__single:hover h4 a {
   color: var(--quaternary-color);
@@ -4224,7 +4224,7 @@ span {
   color: #4c4a59;
 }
 .blog .blog__single-active {
-  background-color: var(--primary-color);
+  background-color: #ffff;
 }
 .blog .blog__single-active h4 a {
   color: var(--quaternary-color);
@@ -4424,7 +4424,7 @@ span {
 .text-brief h2,
 .text-brief h3,
 .text-brief h4 {
-  text-transform: capitalize;
+  
 }
 .text-brief .t-br-two {
   display: flex;
@@ -5718,7 +5718,7 @@ span {
 .h-empower .h-empower-single h3 {
   color: white;
   font-weight: 500;
-  text-transform: capitalize;
+  
 }
 .h-empower .h-empower-single p {
   margin-top: 16px;
@@ -5799,7 +5799,7 @@ span {
   font-weight: 700;
   writing-mode: vertical-rl;
   transform: rotate(-180deg);
-  text-transform: capitalize;
+  
 }
 .h-s-case .h-s-case-single .h-case-content p {
   color: white;
@@ -6969,7 +6969,7 @@ span {
   font-weight: 700;
   writing-mode: vertical-rl;
   transform: rotate(-180deg);
-  text-transform: capitalize;
+  
 }
 .h-s-case-alter .h-s-case-single .h-case-content p {
   color: white;
@@ -7175,7 +7175,7 @@ span {
 }
 .authentication .intro p {
   margin-top: 24px;
-  text-transform: capitalize;
+  
   color: white;
 }
 .authentication .input-single {
@@ -7248,7 +7248,7 @@ span {
 }
 .authentication .divider p {
   font-size: 16px;
-  text-transform: capitalize;
+  
   color: #686673;
 }
 .authentication .divider span {

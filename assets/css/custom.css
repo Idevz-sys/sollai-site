@@ -137,7 +137,7 @@ svg {
   }
 }
 
-@media (min-width: 2000px) {
+@media (max-width: 2000px) {
   .button-acess{
     display: none;
   }
@@ -156,5 +156,3 @@ svg {
   }
 }
 
-.video-s__content {
- 
