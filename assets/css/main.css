@@ -3925,10 +3925,10 @@ span {
 
 .overview .overview__single {
   padding: 32px;
-  border: 1px solid #302e3f;
+  border: 1px solid #302e3f00;
   border-radius: 10px;
   border-top-right-radius: 100px;
-  background-color: #100d21;
+  background-color: #100d2100;
   transition: var(--transition);
   position: relative;
   overflow: hidden;
@@ -3941,7 +3941,7 @@ span {
   inset: 0px;
   border-radius: inherit;
   width: 0px;
-  background-color: #ffff;
+  background-color: #00000028;
   z-index: -1;
   transition: width 0.3s cubic-bezier(0.39, 0.13, 0.55, 0.88);
   will-change: width;
@@ -3989,7 +3989,7 @@ span {
 }
 .overview .overview__single-active h4,
 .overview .overview__single-active p {
-  color: var(--quaternary-color);
+  color: #fff;
 }
 
 .lilu-view {
