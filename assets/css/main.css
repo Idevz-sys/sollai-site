@@ -4176,7 +4176,7 @@ span {
 
 .blog .blog__single {
   padding: 7px 35px 37px;
-  background-color: var(--tertiary-color);
+  background-color: #00000017;
   border-radius: 20px;
   transition: var(--transition);
   height: 400px;
