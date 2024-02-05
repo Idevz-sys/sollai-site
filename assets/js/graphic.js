@@ -1,50 +1,44 @@
-/**
-* This function allows you to go to an specific frame of the animation
-* Remember the frames are a percentage number, so it goes from 0 to 100
-**/
-function goTo(frame){
-	reset(); // Just reset
-	
-  //For some reason Javascript needs a time to remove animate class. I tried to use as callback from reset but it just didnt work. 
-  setTimeout(function(){
-  	//Get components
-    var chart = document.getElementById("radioChartContent"), pVal = document.getElementById("percentValue");
+const generateGlowButtons = () => {
+  document.querySelectorAll(".glow-button").forEach((button) => {
+      let gradientElem = button.querySelector('.gradient');
+      
+      if(!gradientElem) {
+          gradientElem = document.createElement("div");
+          gradientElem.classList.add("gradient");
 
-		//Add animate
-    chart.classList.add("animate");
+          button.appendChild(gradientElem);
+      }
 
-    var currentPercent = 0; //Initial percentage
+      button.addEventListener("pointermove", (e) => {
+          const rect = button.getBoundingClientRect();
 
-		//Get percentage one by one
-    var currTimeout = setInterval(function(){
-    	//Check is reach the limit
-      if(currentPercent == frame || currentPercent > 100){
-      		
-          //Clear interval
-          clearInterval(currTimeout);
-          //Pause animation
-          chart.style.animationPlayState = "paused";
-          chart.style.webkitAnimationPlayState = "paused"; //if webkit
-          
-          return false;
-        }else{
-        	//Sum percentage
-          currentPercent++;
-          //show new percentage
-          pVal.innerHTML = currentPercent+"%";
-        }
-    }, 10); //We are using 10 cause it reference by a 1 second (1000 miliseconds) animation. If you're using 4 seconds, change to 40 as  example
-  },100);
+          const x = e.clientX - rect.left;
+          const y = e.clientY - rect.top;
+
+          gsap.to(button, {
+              "--pointer-x": `${x}px`,
+              "--pointer-y": `${y}px`,
+              duration: 0.6,
+          });
+
+          gsap.to(button, {
+              "--button-glow": chroma
+              .mix(
+                  getComputedStyle(button)
+                  .getPropertyValue("--button-glow-start")
+                  .trim(),
+                  getComputedStyle(button).getPropertyValue("--button-glow-end").trim(),
+                  x / rect.width
+              )
+              .hex(),
+              duration: 0.2,
+          });
+      });
+  });
 }
 
-//Reset to initial position
-function reset(){
-	var chart = document.getElementById("radioChartContent"), pVal = document.getElementById("percentValue");
-  
-  chart.classList.remove("animate");
-  pVal.innerHTML = "0%";
-  chart.style.animationPlayState = "initial";
-  chart.style.webkitAnimationPlayState = "initial"; //if webkit
-}
+// Set variables on loaded
+document.addEventListener('DOMContentLoaded', generateGlowButtons);
 
-goTo(60);
+// Set variables on resize
+window.addEventListener('resize', generateGlowButtons);

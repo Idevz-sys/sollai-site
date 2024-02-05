@@ -286,6 +286,10 @@ svg {
   position: absolute;
   text-shadow: -2px -2px 5px #9a28fc, 2px 2px 5px #9a28fc, 0 0 50px #9a28fc;
 }
+/*botão*/
+.btn12 {
+  font-size: 20px;
+}
 
 /* The animation based on an hexagon
 * its make the radial anim effet
