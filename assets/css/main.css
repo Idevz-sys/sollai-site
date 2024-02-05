@@ -2365,7 +2365,7 @@ span {
  --------- (4.02) banner styles start ---------
  ==== */
 .banner {
-  padding: 850px 0px 0px;
+  padding: 0px 0px 0px;
   background-color: var(--theme-bg);
   position: relative;
   overflow: hidden;

@@ -11,8 +11,12 @@
     
 }
 .titlebg {
-  text-align: center; /* Alinha o texto horizontalmente ao centro */
+  text-align: center;
   display: flex;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 100px;
   
 
 
