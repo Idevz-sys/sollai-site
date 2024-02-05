@@ -3964,25 +3964,30 @@ span {
   margin-top: 16px;
 }
 .overview .overview__single:hover {
-  border-color: var(--primary-color);
+  border-color: #fff;
 }
 .overview .overview__single:hover::before {
   width: 100%;
+  
 }
 .overview .overview__single:hover .overview__thumb img {
   filter: brightness(0) saturate(100%) invert(7%) sepia(6%) saturate(579%) hue-rotate(97deg) brightness(98%) contrast(91%);
+
 }
 .overview .overview__single:hover h4,
 .overview .overview__single:hover p {
-  color: var(--quaternary-color);
+  color: #fff;
+
 }
 .overview .overview__single-active {
   border-color: var(--primary-color);
+
 }
 .overview .overview__single-active::before {
   right: 0px;
   left: unset;
   width: 100%;
+
 }
 .overview .overview__single-active .overview__thumb img {
   filter: brightness(0) saturate(100%) invert(7%) sepia(6%) saturate(579%) hue-rotate(97deg) brightness(98%) contrast(91%);
