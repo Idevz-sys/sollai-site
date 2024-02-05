@@ -421,11 +421,11 @@ p span {
 } */
 
 .title-animation > div > div:first-child {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .title-animation > span > div > div:first-child {
-  text-transform: uppercase !important;
+  /* text-transform: uppercase !important; */
 }
 
 .title-animation > span * {
