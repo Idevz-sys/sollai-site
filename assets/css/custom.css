@@ -31,6 +31,8 @@
   object-fit: cover; /* Isso mantém a proporção e corta o vídeo para cobrir completamente o elemento */
 }
 
+
+
 @media (min-width: 1000px) {
     .banner {
         padding: 1000px 0px 0px;
