@@ -1227,7 +1227,7 @@ span {
   width: 100%;
   max-width: 520px;
   background-color: var(--primary-color);
-  background: linear-gradient(to right, #ffffff8a, #214da6);
+  background: linear-gradient(to right, #f2f2f2f7, #214da6);
   z-index: 99999;
   transform: translateX(100%);
   box-shadow: -10px 0 15px rgba(0, 0, 0, 0.1);
