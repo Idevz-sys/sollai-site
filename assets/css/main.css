@@ -3030,6 +3030,7 @@ span {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  filter: grayscale(20%);
 }
 .cmn-banner .thumb-left {
   position: absolute;
