@@ -490,6 +490,14 @@ span {
   visibility: hidden;
   text-align: center;
 }
+
+@media (max-width: 1998px) {
+  .mouseCursor {
+    display: none;
+  }
+}
+
+
 .mouseCursor.cursor-big {
   width: 20px;
   height: 20px;
