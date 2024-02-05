@@ -22,6 +22,24 @@
 
 }
 
+.container12{
+  width: 80%;
+}
+
+@media (max-width: 992px){
+  .demonstra{
+    display: none;
+  }
+  .space{
+    padding: 32px;
+  }
+  .video-container1{
+    display: none;
+  }
+}
+
+
+
 #button-home{
   margin: 20px;
   letter-spacing: 20px;
