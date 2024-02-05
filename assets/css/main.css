@@ -2403,8 +2403,9 @@ span {
   margin-bottom: 120px;
 }
 .banner h1 {
-  color: var(--white);
-  margin: 0px;
+  margin: -10px;
+  width: 150%;
+
 }
 .banner h1 span {
   color: var(--primary-color);
