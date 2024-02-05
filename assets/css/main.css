@@ -483,6 +483,8 @@ span {
   top: 0;
   left: 0;
   right: 0;
+  width: 30px;
+  height: 30px;
   bottom: 0;
   pointer-events: none;
   border-radius: 50%;
@@ -511,7 +513,7 @@ span {
   width: 10px;
   height: 10px;
   z-index: 10000001;
-  background-color: var(--primary-color);
+  background-color: !important;
   opacity: 0.8;
   transition: width 0.3s ease-in-out, height 0.3s ease-in-out, margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
   mix-blend-mode: difference;
