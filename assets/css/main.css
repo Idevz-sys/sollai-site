@@ -3060,7 +3060,7 @@ span {
  --------- (4.03) footer styles start ---------
  ==== */
 .footer {
-  background-color: var(--tertiary-color);
+  background-color: #120f2300;
   overflow: hidden;
   position: relative;
   z-index: 1;
