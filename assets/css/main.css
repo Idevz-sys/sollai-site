@@ -3,7 +3,7 @@
 
  * theme name: Aikeu
  * version: 1.0
- * description: Artificial Neural Network AI HTML Template
+ * description: SollAi | Sua Inteligencia artificial
  * author: Pixelaxis
  * author-url: https://themeforest.net/user/pixelaxis
 
