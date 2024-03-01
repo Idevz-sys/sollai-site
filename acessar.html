@@ -38,6 +38,13 @@
       <!--[if lte IE 9]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
       <![endif]-->
+      <div class="video-container1">
+         <video class="filter-video banner-video" autoplay loop muted playsinline>
+            <source src="assets/images/banner/background.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+         </video>
+         
+      </div>
       <div class="my-app service-app">
          <!-- ==== preloader start ==== -->
          <div id="preloader">
@@ -89,19 +96,19 @@
                            <div class="col-12 col-md-8 col-lg-6 col-xl-4">
                               <div class="authentication__content section">
                                  <div class="intro">
-                                    <h2 class="light-title-sm title-animation fw-7 text-white mt-12">Login</h2>
-                                    <p>welcome back, we missed you.</p>
+                                    <h2 style="font-size: 40px;" class="light-title-sm title-animation fw-7 text-white mt-12">Acessar Painel</h2>
+                                    <p>Bem vindo de volta!</p>
                                  </div>
                                  <div class="authentication__inner">
                                     <form action="#" method="post">
                                        <div class="input-single">
-                                          <label for="userName">Username</label>
+                                          <label for="userName">Email</label>
                                           <div class="ic-group">
                                              <input
                                                 type="text"
                                                 name="user-name"
                                                 id="userName"
-                                                placeholder="Username"
+                                                placeholder="Digite seu Email"
                                                 required
                                                 >
                                              <span class="material-symbols-outlined">
@@ -110,7 +117,7 @@
                                           </div>
                                        </div>
                                        <div class="input-single">
-                                          <label for="userPassword">Password</label>
+                                          <label for="userPassword">Senha</label>
                                           <div class="ic-group pass">
                                              <span class="material-symbols-outlined show-pass">
                                              visibility_off
@@ -119,40 +126,24 @@
                                                 type="password"
                                                 name="user-Password"
                                                 id="userPassword"
-                                                placeholder="Enter Password"
+                                                placeholder="Digite sua Senha"
                                                 required
                                                 >
                                              <span class="material-symbols-outlined">
                                              key
                                              </span>
                                           </div>
-                                          <a href="contato.html">Forget Password?</a>
+                                          <a href="contato.html">Esqueci minha senha</a>
                                        </div>
                                        <div class="section__content-cta">
                                           <button type="submit" class="btn btn--primary">Sign In</button>
                                        </div>
-                                       <div class="divider">
-                                          <span></span>
-                                          <p>Or continue with</p>
-                                          <span></span>
-                                       </div>
-                                    </form>
-                                    <div class="auth-cta">
-                                       <button>
-                                       <img src="assets/images/google.png" alt="Image">
-                                       </button>
-                                       <button>
-                                       <img src="assets/images/apple.png" alt="Image">
-                                       </button>
-                                       <button>
-                                       <img src="assets/images/meta.png" alt="Image">
-                                       </button>
-                                    </div>
+                                     
                                  </div>
                                  <div class="auth-footer">
                                     <p>
-                                       Don't have an account?
-                                       <a href="sign-up.html">Sign Up!</a>
+                                       Se você ainda não possui uma conta, por favor, solicite uma agora.
+                                       <a href="#">solicite!</a>
                                     </p>
                                     <div class="section__content-cta">
                                        <a href="index.html" class="btn btn--primary">Back To Home</a>
@@ -221,5 +212,20 @@
       <script src="assets/js/plugins.js"></script>
       <!-- main js -->
       <script src="assets/js/main.js"></script>
+      <style>
+         .video-container1 {
+             position: fixed;
+             top: 0;
+             left: 0;
+             width: 100%;
+             height: 100%;
+             overflow: hidden;
+         }
+         .filter-video {
+             width: 100%;
+             height: 100%;
+             object-fit: cover;
+         }
+         </style>
    </body>
 </html>
